@@ -1,0 +1,44 @@
+name: lab10
+description: "A new Flutter project."
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.3.3 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.6
+  flutter_svg: ^0.22.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/mig29.png
+    - assets/images/f22.png
+    - assets/images/j20.png
+    - assets/images/F22-Jet.svg
+    - assets/images/F22R.jpg
+  fonts:
+    - family: Lato
+      fonts:
+        - asset: assets/fonts/Lato.ttf
+    - family: OpenSans
+      fonts:
+        - asset: assets/fonts/OpenSans.ttf
+    - family: Ubuntu
+      fonts:
+        - asset: assets/fonts/Ubuntu.ttf
+    - family: Montserrat
+      fonts:
+        - asset: assets/fonts/Montserrat.ttf
+    - family: Arial
+      fonts:
+        - asset: assets/fonts/Arial.ttf
